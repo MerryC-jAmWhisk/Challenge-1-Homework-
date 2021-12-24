@@ -1,13 +1,16 @@
+/*universal selector, will apply to all elements in css*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*background color for the webpage*/
 body {
     background-color: #d9dcd6;
 }
 
+/*style elements in the header*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -42,6 +45,7 @@ header a {
     text-decoration: none;
 }
 
+/*style elements in the footer*/
 footer {
     padding: 30px;
     clear: both;
@@ -53,10 +57,12 @@ footer h2 {
     font-size: 20px;
 }
 
+/*style the paragraph elements*/
 p {
     font-size: 16px;
 }
 
+/*style the hero section*/
 .hero {
     height: 800px;
     margin-bottom: 25px;
@@ -65,6 +71,7 @@ p {
     background-position: relative;
 }
 
+/*style the contents section*/
 .contents {
     width: 75%;
     display: inline-block;
@@ -99,6 +106,7 @@ p {
     font-size: 36px;
 }
 
+/*style benefit section*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
